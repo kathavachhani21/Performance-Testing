@@ -1,0 +1,5 @@
+1. In the test plan, create a dataset config by following the steps, test plan -> add -> config element -> CSV data set config. Give the name of your CSV file created in the above step. Provide the variable name in the concerned field; every variable is equal to a single column in the CSV. These variables will be helpful for future reference. Ensure to separate the values using a comma
+
+2. Replace the constant data in the request(sampler) by fetching the variables from the CSV file.
+
+3. In the thread group field, give the number of threads. It should be equal to the count of users in the CSV file. Execute the test. Every request uses distinct data from the created CSV file.
