@@ -1,0 +1,2 @@
+Pre-processor : Pre-processor executes some action before making a Sampler Request.
+Post-processor: Post-processor executes some action after making a Sampler Request.
